@@ -23,11 +23,11 @@ The reason AI classifier has such a significantly higher performance than tradit
 Unlike traditional system, AI performance increases over usage.
 As an AI specialist company, Deepvision focuses on developing the best learning algorithm to minimize the amount of samples required before the performance reaches a satisfactory level.
 It has been forcasted that AI classifier will replace all traditional classifier software in the near futur
-The AI framework that Datavision will use include Tensorflow, Pytorch, and our inhouse framework. These will continuously be benchmarked against each other to provide the best performace for our customer.
+The AI framework that Deepvision will use include Tensorflow, Pytorch, and our inhouse framework. These will continuously be benchmarked against each other to provide the best performace for our customer.
 <br>
 <br>
-### 1.4 Datavision Values
-The core value of Datavision system lies within quality training data, trained neural network, optimization calibration of hardware and learning algorithm.
+### 1.4 Deepvision Values
+The core value of Deepvision system lies within quality training data, trained neural network, optimization calibration of hardware and learning algorithm.
 We believe that these factors are appropriate benchmarks for the company to persue.
 
 
