@@ -25,7 +25,7 @@ As an AI specialist company, Deepvision focuses on developing the best learning 
 It has been forcasted that AI classifier will replace all traditional classifier software in the near futur
 The AI framework that Deepvision will use include Tensorflow, Pytorch, and our inhouse framework. These will continuously be benchmarked against each other to provide the best performace for our customer.
 <br>
-###1.4 AI Products
+### 1.4 AI Products
 There will be 2 systems of AI system design 
 1. Infrared sensor resolution enhancement and noise reduction
 * AI filter is superior to a traditional hardware filter, we will be able to archieve a more accurate infrared output in term of noise, certainty, and resolution. 
