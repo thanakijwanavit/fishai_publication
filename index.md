@@ -112,10 +112,10 @@ income will arise from 2 major sources
 <b>1. Model x</b> 
 
 Model x is the sensor with the following specification
-|model|wavelegth (nm) |hardware resolution(nm)|optimized resolution(nm) |applications                                |
+| model | wavelegth (nm) | hardware resolution(nm) | optimized resolution(nm) | applications                                |
 |-----|---------------|-----------------------|-------------------------|-------------------------------------------|
-|x   |900-1700 nm    |2 nm                   | 0.5(improving)|authenticity verification, quality control |
-|y   |900-2500 nm    |1 nm                   | 0.5(improving)|detailed analysis of components concentration|
+| x   |900-1700 nm    |2 nm                   | 0.5(improving)|authenticity verification, quality control |
+| y   |900-2500 nm    |1 nm                   | 0.5(improving)|detailed analysis of components concentration|
 
 These are the hardwares that doesn't require any input or modification from the users. We provide full service and charge the full service fee. 
 Users of this service are aimed at non-technical end users who has no development team for computing service.
