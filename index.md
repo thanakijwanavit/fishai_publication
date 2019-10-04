@@ -112,6 +112,7 @@ income will arise from 2 major sources
 <b>1. Model x</b> 
 
 Model x is the sensor with the following specification
+
 | model | wavelegth (nm) | hardware resolution(nm) | optimized resolution(nm) | applications                                |
 |-----|---------------|-----------------------|-------------------------|-------------------------------------------|
 | x   |900-1700 nm    |2 nm                   | 0.5(improving) | authenticity verification, quality control |
