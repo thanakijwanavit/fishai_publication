@@ -10,7 +10,8 @@ This means the classifier is always the latest and best-trained version.
 The smart sensors are integrated with a high speed 4G data module which minimize the latency.
 <br>
 <br>
-### 1.2 Container based
+
+### 1.2 Cloud Container 
 The benefits of moving the architecture to the cloud is numerous.
 For instance, the sensor will enjoy the latest supercomputer level performance without investing in any hardware.
 However, Traditional cloud system relies on expensive rental of cloud server and their maintainace.
@@ -54,26 +55,33 @@ We believe that these factors are appropriate benchmarks for the company to pers
 
 
 
-### 2.1 Hardware
+### 2.1 Hardware and hardware enhancer algorithm
 >We are planning to launch the AI Infrared reader hardware with our own modification including:
 
 
-![sensor design](https://github.com/thanakijwanavit/fishaicharts/blob/master/sensor_design.png?raw=true)
 1. AI resolution enhancer. The AI will be integrated in the firmware API caller.
 
-![ai resolution enhancer](https://github.com/thanakijwanavit/fishaicharts/blob/master/hardware_enhancement.png?raw=true)
 
 2. hardware modification to enhance both the range and resolution
 
 
 ### Major hardware product versions are planned by following schedule
 
-|Date|Hardware Version| Enhancement| resolution|range|
+|Date|Hardware Version| Enhancement|post-enhance resolution|range|
 |----|----------------|------------|-----------|-----|
 |June 2019|1.0|hardware|5nm|1500nm|
 |Dec 2019|2.0|hardware,AI|2nm|2000nm|
 |June 2020|3.0|hardware,AI|1nm|3000nm|
 |Dec 2020|4.0|hardware,AI|0.5nm|3000nm|
+
+2.1.2 Cheaper hardware
+
+Hardware are aimed at a smaller professional use market in the year 2019-2021. However, we ultimately aim for a commercial use for non-specilaized customers.
+This means that the main goal is to develop a sustainably priced device that is accessible to everyone.
+
+There is a chance that in the future, some manufacturer will produce a reasonably priced NIR sensor. In that case, DVMLOS will be a great beneficiary with our vast collection of data a trained model.
+
+Another solution is to build an extension which makes use of smartphone sensors to measure infrared spectrum. This will require a much more research both in term of firmware and capabilities of those cameras. However, if this is successful, we will be able to expand exponentially.
 
 ### 2.2 Software
 > We plan to experiment with new training algorithm of AI to enhance both the functions and accuracy every quarter. The major update categories are:
@@ -90,6 +98,7 @@ We believe that these factors are appropriate benchmarks for the company to pers
 | Dec 2019  | 2.0     | 20000              | 8                   | 10            | 10                                |
 | June 2020 | 3.0     | 1000000            | 20                  | 100           | 20                                |
 | Dec 2020  | 4.0     | 10000000           | 100                 | 200           | 50                                |
+| 2021  | 5.0     | 10M+           | 1000                 | 1000           | 100                                |
 
 ## 3. Source of income
 ### 3.1 Product and Services
@@ -109,14 +118,13 @@ income will arise from 2 major sources
 #### 3.1.1 Hardware
 2 hardware categories are in the pipeline:
 
-<b>1. Model x</b> 
-
-Model x is the sensor with the following specification
 
 | model | wavelegth (nm) | hardware resolution(nm) | optimized resolution(nm) | applications                                |
 |-----|---------------|-----------------------|-------------------------|-------------------------------------------|
 | x   |900-1700 nm    |2 nm                   | 0.5(improving) | authenticity verification, quality control |
 | y   |900-2500 nm    |1 nm                   | 0.5(improving) | detailed analysis of components concentration |
+
+<b>1. Model x</b> 
 
 These are the hardwares that doesn't require any input or modification from the users. We provide full service and charge the full service fee. 
 Users of this service are aimed at non-technical end users who has no development team for computing service.
@@ -124,6 +132,16 @@ Users of this service are aimed at non-technical end users who has no developmen
 <b>2. Model y</b>
 
 Model y are focused on users who are looking to analyze concentration of components in the samples. Especially if the infrared signature is not strong within the range of model x. We expect a very high accuracy output Especially after ML enhancer.
+
+
+<b>cheaper model for gerneral users</b>
+
+The key to success of DVMLOS in a longer term is to expand to a general user or lower cost business model.
+
+The primary plan is to work with cheaper supplier such as [SCiO](https://www.consumerphysics.com/business/technology/)
+
+moreover there is also a possibility to use cameras on a common smartphone such as iphone to obtain an infrared spectrum.
+
 
 #### 3.1.2 Services
 
@@ -167,6 +185,41 @@ This is a subscription for customers that purchase the full stack hardware who r
 
 ## 4 Financial Projection
 
+We have estimated the following financial projections with the following assumptions
+
+### 4.0 Assumptions for the model
+#### Pricing and Volume Assumptions
+##### Selling prices
+Sellling price starts at 10,000 and will reduce over time
+For model Y, price will start at 30,000 USD and reduce over time
+
+##### Sales volume
+we expect the sales growth to be linear with small growth rate
+due to the difficulty in entering the market
+
+##### Subscription
+we expect subscription without purchase to be slow at first, but increase rapidly
+as users of other sensors are able to use the API.
+
+Subscription cost will be charged at 100 USD per month
+
+##### Yearly maintainanace revenue
+we will charge the users 10% of product cost per year for product maintainance
+
+#### Cost Assumptions
+
+##### cost of the model X
+the fixed cost is 5000 USD
+Variable cost follows a reverse exponential with a formular A*exp(-Bt)
+where t= time
+
+##### cost of the model Y
+the fixed cost is 10,000 USD
+Variable cost follows a reverse exponential curve with the same formular as model X
+
+##### cost of running subscription server and yearly maintainence
+The cost of running server is expected to be approx $10 per user per month
+
 ### 4.1 Hardware business
 
 The products will be initially quite difficult to sell due to the corporate use environment and 
@@ -191,14 +244,6 @@ exact concentration of components. The 0.5 nm resolution after enhancement shoul
 to obtain a highly accurate concentration estimation. 
 Although the starting price is much higher than model at $30,000, the price is still competitive compared to
 other established competitors such as Bruker.
-
-
-
-
-![](https://github.com/thanakijwanavit/fishaicharts/blob/master/full_stack_sales.png?raw=true)
-*full stack hardware sales*
-
-
 
 
 
